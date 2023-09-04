@@ -1,0 +1,95 @@
+/*смешанный калькулятор*/
+table.tableSizes{font-size:14px;width: 100%;}
+table.tableSizes td.sizeVoid{background:#ECECEC;pointer-events:none;border:2px solid #E0E0E0}
+table.tableSizes td,table.tableSizes th{height:1px}
+/*table.tableSizes tr:hover td{color:#636363}*/
+table.tableSizes td.sizeUnhighlighted{background-color:#fff;border-color:#e0e0e0;border: 2px solid #ebebeb;padding: 12px 18px;text-align: center;cursor:pointer;}
+table.tableSizes td.sizeHighlighted{background:#898989 !important;outline:2px solid #898989;border:0;color:#fff!important;text-align: center;}
+table.tableSizes tr td.highlighted{background-color:#037BA9;border-color:#037BA9;color:#FFF}
+table.tableSizes tr td:hover{background:#EBF6FB;color:#000}
+table.tableSizes tr td.unhighlighted{
+	background: #ffad27;
+    border: 2px solid #dee1e2;
+    color: #FFF;
+    padding: 12px 18px;
+    text-align: center;
+}
+label.lbDin{font-size:8pt;font-family:arial;color:#666}
+.calculiator_metiz_left_top{position:relative}
+.calculiator_metiz_left_top ul{display:none;width:100%;padding:30px 0 10px;background:#F5F5F5;position:absolute;z-index:2;left:10px;top:260px;-webkit-column-count:3;column-count:3}
+.calculiator_metiz_left_top ul li{padding:0 30px 15px;display:block;overflow:hidden;margin:0}
+.calculiator_metiz_left_top ul li:before{display:none}
+.calculiator_metiz_left_top ul a{text-decoration:underline;color:#000;display:inline-block;font-size:15px;}
+.calculiator_metiz_left_top ul a:hover {text-decoration: none;}
+.calculiator_metiz_left_top ul a.active_item{color:#ffad27}
+.calkuliator_metiz_spisok_top{margin:0 10px 20px;font-size:18px;font-weight:700;color:#ffad27;text-align:center;line-height:44px;height:45px;cursor:pointer;position:relative;background:#FFF;border:2px solid #ffad27;border-radius:7px;border-radius:7px;transition: 0.2s all ease;}
+.calkuliator_metiz_spisok_top.act,.calkuliator_metiz_spisok_top:hover{background:#ffad27;color:#FFF}
+div.calculiator_metiz_top{float:left;margin:0 -10px;width: 100%;}
+div.calculiator_metiz_top .wrap{float:left;padding:0;width: 25%;}
+.step{margin:0 0 30px;float:left;width:100%;font-size:19px;font-weight:700;margin-left:10px;}
+.step span{display:block;float:left;color:#fff;background:#ffad27;height:20px;width:20px;text-align:center;line-height:22px;font-size:13px;margin:3px 10px 0 0;border-radius:5px;}
+#step1{margin-left:10px;margin-right:10px}
+#step2{display:none}
+#step3{display:none}
+.get_the_table_row{display:none;margin-top:50px}
+.get_the_table_row .calculate{margin-top:40px}
+.get_the_table_row .calculate input{
+	width:250px;
+	float:left;
+	line-height: 37px;
+    border: 2px solid #d7d7d7;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.get_the_table_row .calculate .result{float:left;background:#ffad27;line-height:41px;padding:0px 30px;color:#FFF;}
+.get_the_table_row {
+    display: none;
+    margin-top: 50px;
+}
+.body_table .select, table.tableSizes td.select {
+    background: #898989 !important;
+    outline: 2px solid #898989;
+    border: 0;
+    color: #fff!important;
+}
+#title_calc_text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffad27;
+}
+.error_calc {
+    color: red;
+    font-weight: 600;
+}
+.calc_mobile {
+	display: none;
+}
+@media only screen and (max-width: 951px) {
+	.calc_desctop {
+		display: none;
+	}
+	.calc_mobile {
+		display: block;
+	}
+}
+/*смешанный калькулятор*/
+.vybor {
+	    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px;
+    color: #ffad27;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    position: relative;
+    background: #FFF;
+    border: 2px solid #ffad27;
+    border-radius: 7px;
+    transition: 0.2s all ease;
+}
+.vybor:hover {
+	background: #ffad27;
+    color: #FFF;
+}
